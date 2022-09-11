@@ -1,0 +1,42 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px
+}
+header{
+    height: 60px;
+    background-color: black;
+}
+.content{
+    width: 960px;
+   /* margin: 10px 10px 10px 10px; top right bottom left */
+    margin: 0px auto;
+}
+#logo{
+    width: 250px;
+}
+.box{
+    width: 220px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+.boxP1{
+    width: 100px;
+    margin-left: 80px;
+}
+.box:hover{
+    background-color: #f7f3f3;
+    color: white;
+}
+
+.boxTitle{
+    color: #1D90CB;
+    font-weight: normal;
+    font-size: 18px;
+}
+.boxP{
+    font-size: 12px;
+    line-height: 18px; /*satır arası yükseklik*/
+    color: #8a8585;
+}

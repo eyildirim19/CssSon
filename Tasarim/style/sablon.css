@@ -1,0 +1,40 @@
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.box{
+    width: 235px;
+    height: 235px;
+    background-color: red;
+    display: inline-block;
+    padding: 5px;
+}
+
+.icbox{
+    width: 235px;
+    height: 235px;
+    background-color: white;
+}
+#kutuTut{
+    position: relative;
+    /*relative => absouluteleri kendi içerisinde bağımsız yapması için kullanılır*/
+}
+
+#kutu{
+    width: 75px;
+    height: 75px;
+    background-color: aqua;
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    /*absolute => bütün elementlerden bağımsız olması için verilen stildir*/
+}
+#spn1{
+    width: 50px;
+    display:inline-block;
+    height:50px;
+    background-color: brown;
+    color: white;
+}

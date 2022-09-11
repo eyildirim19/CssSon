@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <!--css (cascading style sheet) internal yazdıldığında html dökümanın head tag'inin için yazılmalıdır-->
+        <style>
+            /* element seçici html tag ismi ile seçilir */
+            h1{
+                color:red; /*text rengi*/
+                font-size: 14px;
+            }
+            span{
+                color:pink;
+            }
+            input{
+                border:none;
+                border-bottom-style: dashed;
+                border-bottom-width: 1px;
+                border-bottom-color: pink;
+                /* color:pink; */
+                /* color:rgb(10, 50, 90); */
+                color: #F0F0D0;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            input:focus{
+                outline: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> BT AKADEMİ</h1>
+        <span>Adınız</span>
+        <input type="text" placeholder="Adınızı giriniz" />
+    </body>
+</html>
